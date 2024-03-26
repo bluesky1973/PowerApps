@@ -1,8 +1,8 @@
 {
   "FormatVersion": "0.20",
   "Header": {
-    "DocVersion": "1.309",
-    "MinVersionToLoad": "1.309",
+    "DocVersion": "1.310",
+    "MinVersionToLoad": "1.310",
     "MSAppStructureVersion": "2.0"
   },
   "Properties": {
@@ -10,7 +10,7 @@
     "AppDescription": "",
     "AppPreviewFlagsMap": {
       "aibuilderserviceenrollment": true,
-      "autocreateenvironmentvariables": false,
+      "autocreateenvironmentvariables": true,
       "backfromhostaction": false,
       "behaviorpropertyui": false,
       "blockmovingcontrol": true,
@@ -23,6 +23,8 @@
       "enableaimodelsindatapane": false,
       "enableappembeddingux": false,
       "enablecdsfileandlargeimage": true,
+      "enableexcelonlinebusinessv2connector": false,
+      "enableonstart": true,
       "enableonstartnavigate": true,
       "enablepcfmoderndatasets": false,
       "enablerowscopeonetonexpand": false,
@@ -58,23 +60,23 @@
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
     "DocumentLayoutHeight": 768,
-    "DocumentLayoutLockOrientation": true,
-    "DocumentLayoutMaintainAspectRatio": true,
+    "DocumentLayoutLockOrientation": false,
+    "DocumentLayoutMaintainAspectRatio": false,
     "DocumentLayoutOrientation": "landscape",
-    "DocumentLayoutScaleToFit": true,
+    "DocumentLayoutScaleToFit": false,
     "DocumentLayoutWidth": 1366,
     "DocumentType": "App",
     "EnableInstrumentation": false,
-    "ErrorCount": 0,
-    "FileID": "70f4750f-3341-4d81-9eae-41ee45765a3b",
-    "Id": "f644485e-eb4e-4248-bc7d-0ec3d523e186",
+    "ErrorCount": 2,
+    "FileID": "9cda4b9f-7517-4fca-ba39-cf7153471eb7",
+    "Id": "65f5840c-354e-4b10-94ed-4faae701b446",
     "InstrumentationKey": "",
-    "Name": "beautify-m365pnp-sample.msapp",
-    "OriginatingVersion": "1.309"
+    "Name": "Fluent+UI+Theme+(Tablet).msapp",
+    "OriginatingVersion": "1.310"
   },
   "PublishInfo": {
-    "AppName": "beautify-m365pnp-sample",
-    "BackgroundColor": "rgba(104, 101, 171, 1)",
+    "AppName": "Fluent UI Theme (Tablet)",
+    "BackgroundColor": "rgba(0, 176, 240, 1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
     "LogoFileName": "logo.jpg",
@@ -84,10 +86,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Welcome Screen",
-    "Teams Screen",
-    "Channel Screen",
-    "Libraries Screen",
-    "Lists Screen"
+    "SampleScreen",
+    "_UnthemedTypographyScreen",
+    "_UnthemedControlsScreen"
   ]
 }

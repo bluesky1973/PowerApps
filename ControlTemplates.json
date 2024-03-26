@@ -11,61 +11,137 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
-  "gallery": {
+  "audioPlayback": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/gallery",
+    "Id": "http://microsoft.com/appmagic/audioPlayback",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPremiumPcfControl": false,
     "LastModifiedTimestamp": "0",
-    "Name": "gallery",
+    "Name": "audioPlayback",
     "OverridableProperties": {},
-    "Version": "2.11.0"
+    "Version": "2.1.1"
   },
-  "galleryTemplate": {
+  "button": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/galleryTemplate",
+    "Id": "http://microsoft.com/appmagic/button",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPremiumPcfControl": false,
     "LastModifiedTimestamp": "0",
-    "Name": "galleryTemplate",
+    "Name": "button",
     "OverridableProperties": {},
-    "Version": "1.0"
+    "Version": "2.0.1"
   },
-  "group": {
+  "checkbox": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/group",
+    "Id": "http://microsoft.com/appmagic/checkbox",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPremiumPcfControl": false,
     "LastModifiedTimestamp": "0",
-    "Name": "group",
+    "Name": "checkbox",
     "OverridableProperties": {},
-    "Version": "1"
+    "Version": "2.0.1"
+  },
+  "combobox": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/combobox",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "combobox",
+    "OverridableProperties": {},
+    "Version": "2.3.1"
+  },
+  "dataCard": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/card",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "dataCard",
+    "OverridableProperties": {},
+    "Version": "1.0.2"
+  },
+  "datepicker": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/datepicker",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "datepicker",
+    "OverridableProperties": {},
+    "Version": "2.4.0"
+  },
+  "dropdown": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/dropdown",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "dropdown",
+    "OverridableProperties": {},
+    "Version": "2.2.3"
+  },
+  "export": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/export",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "export",
+    "OverridableProperties": {},
+    "Version": "2.0.1"
+  },
+  "fluidGrid": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/fluidGrid",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "fluidGrid",
+    "OverridableProperties": {},
+    "Version": "2.1.2"
   },
   "groupContainer": {
+    "CustomGroupControlTemplateName": "",
     "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/groupContainer",
     "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
     "LastModifiedTimestamp": "0",
     "Name": "groupContainer",
-    "Version": "1.0"
+    "OverridableProperties": {},
+    "Version": "1.0.1"
   },
-  "icon": {
+  "htmlViewer": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/icon",
+    "Id": "http://microsoft.com/appmagic/htmlViewer",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPremiumPcfControl": false,
     "LastModifiedTimestamp": "0",
-    "Name": "icon",
+    "Name": "htmlViewer",
     "OverridableProperties": {},
-    "Version": "2.3.2"
+    "Version": "2.0.0"
   },
   "image": {
     "CustomGroupControlTemplateName": "",
@@ -79,6 +155,41 @@
     "OverridableProperties": {},
     "Version": "2.1.2"
   },
+  "import": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/import",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "import",
+    "OverridableProperties": {
+      "Data": {
+        "Type": {
+          "EnumString": "",
+          "Kind": "Table",
+          "Name": "Root",
+          "Type": []
+        },
+        "Version": "1.310"
+      }
+    },
+    "PCFDynamicSchemaForIRRetrieval": {},
+    "Version": "2.0.0"
+  },
+  "inkControl": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/inkControl",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "inkControl",
+    "OverridableProperties": {},
+    "Version": "2.1.1"
+  },
   "label": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -91,17 +202,61 @@
     "OverridableProperties": {},
     "Version": "2.3.2"
   },
-  "rectangle": {
+  "listbox": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/shapes/rectangle",
+    "Id": "http://microsoft.com/appmagic/listbox",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPremiumPcfControl": false,
     "LastModifiedTimestamp": "0",
-    "Name": "rectangle",
+    "Name": "listbox",
     "OverridableProperties": {},
-    "Version": "2.1.2"
+    "Version": "2.1.1"
+  },
+  "radio": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/radio",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "radio",
+    "OverridableProperties": {},
+    "Version": "2.2.1"
+  },
+  "rating": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/rating",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "rating",
+    "OverridableProperties": {},
+    "Version": "2.0.1"
+  },
+  "Rating": {
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/rating",
+    "IsComponentTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "Rating",
+    "Version": "2.0.1"
+  },
+  "richTextEditor": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/richTextEditorControl",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "richTextEditor",
+    "OverridableProperties": {},
+    "Version": "2.3.0"
   },
   "screen": {
     "CustomGroupControlTemplateName": "",
@@ -114,5 +269,53 @@
     "Name": "screen",
     "OverridableProperties": {},
     "Version": "1.0"
+  },
+  "slider": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/slider",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "slider",
+    "OverridableProperties": {},
+    "Version": "2.0.1"
+  },
+  "text": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/text",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "text",
+    "OverridableProperties": {},
+    "Version": "2.2.1"
+  },
+  "timer": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/timer",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "timer",
+    "OverridableProperties": {},
+    "Version": "2.0.1"
+  },
+  "toggleSwitch": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/toggleSwitch",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPremiumPcfControl": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "toggleSwitch",
+    "OverridableProperties": {},
+    "Version": "2.0.1"
   }
 }
