@@ -13,80 +13,33 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
-  "Auto Width Label (1.0.19)": {
+  "button": {
     "CustomGroupControlTemplateName": "",
-    "FirstParty": false,
-    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.AutoWidthLabel",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/button",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
+    "IsPcfControl": false,
     "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
+    "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
-    "Name": "cat_PowerCAT.AutoWidthLabel",
+    "Name": "button",
     "OverridableProperties": {},
-    "TemplateDisplayName": "Auto Width Label (1.0.19)",
-    "Version": "1.0.19"
+    "Version": "2.2.0"
   },
-  "Fluent Elevation (1.0.19)": {
+  "dropdown": {
     "CustomGroupControlTemplateName": "",
-    "FirstParty": false,
-    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.Elevation",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/dropdown",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
+    "IsPcfControl": false,
     "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
+    "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
-    "Name": "cat_PowerCAT.Elevation",
+    "Name": "dropdown",
     "OverridableProperties": {},
-    "TemplateDisplayName": "Fluent Elevation (1.0.19)",
-    "Version": "1.0.19"
-  },
-  "Fluent Icon (1.0.19)": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": false,
-    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.Icon",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "cat_PowerCAT.Icon",
-    "OverridableProperties": {},
-    "TemplateDisplayName": "Fluent Icon (1.0.19)",
-    "Version": "1.0.19"
-  },
-  "Fluent SearchBox (1.0.19) Preview": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": false,
-    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.SearchBox",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "cat_PowerCAT.SearchBox",
-    "OverridableProperties": {},
-    "TemplateDisplayName": "Fluent SearchBox (1.0.19) Preview",
-    "Version": "1.0.19"
-  },
-  "Fluent Tag List (1.0.19)": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": false,
-    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.TagList",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "cat_PowerCAT.TagList",
-    "OverridableProperties": {},
-    "TemplateDisplayName": "Fluent Tag List (1.0.19)",
-    "Version": "1.0.19"
+    "Version": "2.3.1"
   },
   "gallery": {
     "CustomGroupControlTemplateName": "",
@@ -116,19 +69,71 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
-  "groupContainer": {
+  "group": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/group",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "group",
+    "OverridableProperties": {},
+    "Version": "1"
+  },
+  "groupContainer": {
+    "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/groupContainer",
+    "IsComponentTemplate": false,
+    "IsPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "groupContainer",
+    "Version": "1.0"
+  },
+  "htmlViewer": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/htmlViewer",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPcfControl": false,
     "IsPremiumPcfControl": false,
     "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
-    "Name": "groupContainer",
+    "Name": "htmlViewer",
     "OverridableProperties": {},
-    "Version": "1.1.0"
+    "Version": "2.1.0"
+  },
+  "icon": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/icon",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "icon",
+    "OverridableProperties": {},
+    "Version": "2.5.0"
+  },
+  "image": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/image",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "image",
+    "OverridableProperties": {},
+    "Version": "2.2.1"
   },
   "label": {
     "CustomGroupControlTemplateName": "",
@@ -143,20 +148,6 @@
     "Name": "label",
     "OverridableProperties": {},
     "Version": "2.5.1"
-  },
-  "pcfDataField": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/pcfDataField",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "pcfDataField",
-    "OverridableProperties": {},
-    "Version": "1.4.0"
   },
   "rectangle": {
     "CustomGroupControlTemplateName": "",
@@ -185,5 +176,19 @@
     "Name": "screen",
     "OverridableProperties": {},
     "Version": "1.0"
+  },
+  "text": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/text",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "text",
+    "OverridableProperties": {},
+    "Version": "2.3.2"
   }
 }
